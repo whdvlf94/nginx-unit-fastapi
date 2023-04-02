@@ -1,0 +1,39 @@
+{
+    "listeners": {
+        "*:8090": {
+            "pass": "applications/fastapi/front"
+        },
+        "*:80": {
+            "pass": "routes"
+        }
+    },
+    "routes": [
+        {
+            "match":{
+                "uri": "/back"
+            },
+
+            "action": {
+                "pass": "applications/fastapi/back"
+            }
+        }
+    ],
+
+    "applications": {
+        "fastapi": {
+            "type": "python 3.11",
+            "path": "/www/",
+            "targets": {
+                "front": {
+                    "module":"front.asgi",
+                    "callable":"app"
+                },
+                "back": {
+                    "module": "back.asgi",
+                    "callable":"app"
+                }
+            }
+
+        }
+    }
+}

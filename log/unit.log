@@ -1,0 +1,81 @@
+2023/03/31 07:32:22 [info] 13#13 discovery started
+2023/03/31 07:32:22 [notice] 13#13 module: python 3.11.2 "/usr/lib/unit/modules/python3.unit.so"
+2023/03/31 07:32:22 [info] 12#12 controller started
+2023/03/31 07:32:22 [notice] 12#12 process 13 exited with code 0
+2023/03/31 07:32:22 [info] 16#16 router started
+2023/03/31 07:32:22 [info] 16#16 OpenSSL 1.1.1n  15 Mar 2022, 101010ef
+2023/03/31 07:32:22 [info] 20#20 "fastapi" prototype started
+2023/03/31 07:32:22 [info] 21#21 "fastapi" application started
+2023/03/31 07:32:22 [alert] 21#21 Python failed to import module "front.asgi"
+ModuleNotFoundError: No module named 'front'
+2023/03/31 07:32:22 [notice] 20#20 app process 21 exited with code 1
+2023/03/31 07:32:22 [warn] 16#16 failed to start application "fastapi"
+2023/03/31 07:32:22 [alert] 16#16 failed to apply new conf
+2023/03/31 07:32:22 [notice] 12#12 process 20 exited with code 0
+2023/03/31 07:33:36 [info] 14#14 discovery started
+2023/03/31 07:33:36 [notice] 14#14 module: python 3.11.2 "/usr/lib/unit/modules/python3.unit.so"
+2023/03/31 07:33:36 [info] 12#12 controller started
+2023/03/31 07:33:36 [notice] 12#12 process 14 exited with code 0
+2023/03/31 07:33:36 [info] 16#16 router started
+2023/03/31 07:33:36 [info] 16#16 OpenSSL 1.1.1n  15 Mar 2022, 101010ef
+2023/03/31 07:33:36 [info] 20#20 "fastapi" prototype started
+2023/03/31 07:33:36 [info] 21#21 "fastapi" application started
+2023/03/31 07:33:36 [alert] 21#21 Python failed to import module "front.asgi"
+ModuleNotFoundError: No module named 'front'
+2023/03/31 07:33:36 [notice] 20#20 app process 21 exited with code 1
+2023/03/31 07:33:36 [warn] 16#16 failed to start application "fastapi"
+2023/03/31 07:33:36 [alert] 16#16 failed to apply new conf
+2023/03/31 07:33:36 [notice] 12#12 process 20 exited with code 0
+2023/03/31 07:38:16 [info] 14#14 discovery started
+2023/03/31 07:38:16 [notice] 14#14 module: python 3.11.2 "/usr/lib/unit/modules/python3.unit.so"
+2023/03/31 07:38:16 [info] 12#12 controller started
+2023/03/31 07:38:16 [notice] 12#12 process 14 exited with code 0
+2023/03/31 07:38:16 [info] 16#16 router started
+2023/03/31 07:38:16 [info] 16#16 OpenSSL 1.1.1n  15 Mar 2022, 101010ef
+2023/03/31 07:38:16 [info] 20#20 "fastapi" prototype started
+2023/03/31 07:38:16 [info] 21#21 "fastapi" application started
+2023/03/31 07:38:16 [notice] 12#12 process 15 exited with code 0
+2023/03/31 07:38:16 [notice] 12#12 process 16 exited with code 0
+2023/03/31 07:38:16 [notice] 20#20 app process 21 exited with code 0
+2023/03/31 07:38:16 [alert] 20#20 sendmsg(13, -1, -1, 2) failed (32: Broken pipe)
+2023/03/31 07:38:16 [notice] 12#12 process 20 exited with code 0
+2023/03/31 07:38:17 [info] 35#35 discovery started
+2023/03/31 07:38:17 [notice] 35#35 module: python 3.11.2 "/usr/lib/unit/modules/python3.unit.so"
+2023/03/31 07:38:17 [info] 1#1 controller started
+2023/03/31 07:38:17 [notice] 1#1 process 35 exited with code 0
+2023/03/31 07:38:17 [info] 37#37 router started
+2023/03/31 07:38:17 [info] 37#37 OpenSSL 1.1.1n  15 Mar 2022, 101010ef
+2023/03/31 07:38:17 [info] 38#38 "fastapi" prototype started
+2023/03/31 07:38:17 [info] 39#39 "fastapi" application started
+2023/03/31 07:40:28 [alert] 38#38 sendmsg(12, -1, -1, 1) failed (32: Broken pipe)
+2023/03/31 07:40:28 [notice] 38#38 app process 39 exited with code 0
+2023/03/31 07:40:28 [notice] 1#1 process 38 exited with code 0
+2023/03/31 07:40:28 [alert] 54#54 read signalfd(4) failed (11: Resource temporarily unavailable)
+2023/03/31 07:40:28 [info] 54#54 "fastapi" prototype started
+2023/03/31 07:40:28 [info] 55#55 "fastapi" application started
+2023/03/31 07:41:34 [alert] 54#54 sendmsg(12, -1, -1, 1) failed (32: Broken pipe)
+2023/03/31 07:41:34 [notice] 54#54 app process 55 exited with code 0
+2023/03/31 07:41:34 [notice] 1#1 process 54 exited with code 0
+2023/03/31 07:41:34 [info] 68#68 "fastapi" prototype started
+2023/03/31 07:41:34 [info] 69#69 "fastapi" application started
+2023/03/31 07:50:00 [info] 13#13 discovery started
+2023/03/31 07:50:00 [notice] 13#13 module: python 3.11.2 "/usr/lib/unit/modules/python3.unit.so"
+2023/03/31 07:50:00 [info] 12#12 controller started
+2023/03/31 07:50:00 [notice] 12#12 process 13 exited with code 0
+2023/03/31 07:50:00 [info] 16#16 router started
+2023/03/31 07:50:00 [info] 16#16 OpenSSL 1.1.1n  15 Mar 2022, 101010ef
+2023/03/31 07:50:00 [info] 20#20 "fastapi" prototype started
+2023/03/31 07:50:00 [info] 21#21 "fastapi" application started
+2023/03/31 07:50:00 [notice] 12#12 process 15 exited with code 0
+2023/03/31 07:50:00 [notice] 12#12 process 16 exited with code 0
+2023/03/31 07:50:00 [notice] 20#20 app process 21 exited with code 0
+2023/03/31 07:50:00 [alert] 20#20 sendmsg(13, -1, -1, 2) failed (32: Broken pipe)
+2023/03/31 07:50:00 [notice] 12#12 process 20 exited with code 0
+2023/03/31 07:50:01 [info] 41#41 discovery started
+2023/03/31 07:50:01 [notice] 41#41 module: python 3.11.2 "/usr/lib/unit/modules/python3.unit.so"
+2023/03/31 07:50:01 [info] 1#1 controller started
+2023/03/31 07:50:01 [notice] 1#1 process 41 exited with code 0
+2023/03/31 07:50:01 [info] 43#43 router started
+2023/03/31 07:50:01 [info] 43#43 OpenSSL 1.1.1n  15 Mar 2022, 101010ef
+2023/03/31 07:50:01 [info] 44#44 "fastapi" prototype started
+2023/03/31 07:50:01 [info] 45#45 "fastapi" application started
