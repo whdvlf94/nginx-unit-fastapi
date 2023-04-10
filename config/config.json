@@ -1,9 +1,9 @@
 {
     "listeners": {
-        "*:8090": {
+        "*:80": {
             "pass": "applications/fastapi/front"
         },
-        "*:80": {
+        "*:8090": {
             "pass": "routes"
         }
     },
